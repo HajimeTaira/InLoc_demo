@@ -4,6 +4,7 @@ addpath('functions/utils');
 addpath('functions/wustl_function');
 addpath('functions/relja_matlab');
 addpath('functions/relja_matlab/matconvnet/');
+addpath('functions/netvlad/');
 
 addpath('functions/yael_matlab_linux64_v438');
 addpath('functions/Inpaint_nans/Inpaint_nans');
