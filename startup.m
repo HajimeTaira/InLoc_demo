@@ -7,5 +7,5 @@ addpath('functions/relja_matlab/matconvnet/');
 
 addpath('functions/yael_matlab_linux64_v438');
 addpath('functions/Inpaint_nans/Inpaint_nans');
-run('functions/vlfeat-0.9.20/toolbox/vl_setup.m');
+run('functions/vlfeat/toolbox/vl_setup.m');
 run('functions/matconvnet/matlab/vl_setupnn.m');

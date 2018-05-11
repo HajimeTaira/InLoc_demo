@@ -1,7 +1,7 @@
 # InLoc demo
 
-This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. 
-Please send bug reports and suggestions to <htaira@ctrl.titech.ac.jp>, <torii@sc.e.titech.ac.jp> . 
+This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. We have compiled and tested it on Ubuntu 14.04 / 16.04. 
+Please send bug reports and suggestions to <htaira@ok.ctrl.titech.ac.jp>, <torii@sc.e.titech.ac.jp> . 
 
 ## Installation
 
@@ -16,7 +16,7 @@ Please send bug reports and suggestions to <htaira@ctrl.titech.ac.jp>, <torii@sc
 
     Netvlad, relja_matlab, vlfeat, matconvnet are the submodules of this repository and automatically downloaded by `` git clone ``. 
     For matconvnet, Inpaint nans, yael, please follow installation procedure described in their pages. 
-    Then modify `` startup.m `` to add path to them. 
+    Then modify `` startup.m `` to add path to all dependencies. 
 
 * Compile mex function in functions/ht_pnp_function
     
