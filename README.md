@@ -1,6 +1,6 @@
 # InLoc demo
 
-This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. We have compiled and tested it on Ubuntu 14.04 / 16.04. 
+This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. 
 Please send bug reports and suggestions to <htaira@ok.ctrl.titech.ac.jp>, <torii@sc.e.titech.ac.jp> . 
 
 ## Installation

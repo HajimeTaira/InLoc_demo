@@ -4,8 +4,10 @@
 *.fig
 functions/Inpaint_nans/*
 functions/yael_matlab_linux64_v438/*
-functions/vlfeat-0.9.20/*
+functions/vlfeat/*
 functions/matconvnet/*
+functions/netvlad/*
+functions/relja_matlab/*
 inputs_netvlad/*
 outputs_netvlad/*
 
