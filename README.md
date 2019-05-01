@@ -3,6 +3,10 @@
 This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. 
 Please send bug reports and suggestions to <htaira@ok.ctrl.titech.ac.jp>, <torii@sc.e.titech.ac.jp> . 
 
+2019.5.1 Update. 
+We open an online evaluation tool for visual localization on the InLoc dataset (<https://www.visuallocalization.net/>). The tool accepts the localization results in text format. Please use `` functions/utils/ImgList2text.m `` in this repository to convert .mat result file to the proper text format. 
+
+
 ## Installation
 
 * Install dependencies
