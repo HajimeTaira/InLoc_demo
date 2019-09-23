@@ -5,7 +5,7 @@ function [ params ] = setup_project_ht_WUSTL
 params = struct();
 
 %WUSTL dataset
-params.data.dir = '/RED6TB22/wustl_dataset';
+params.data.dir = './wustl_dataset';
 %database
 params.data.db.dir = 'database';
 params.data.db.subsets_name = {'DUC1', 'DUC2', 'CSE3', 'CSE4', 'CSE5'};
