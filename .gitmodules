@@ -10,3 +10,6 @@
 [submodule "functions/vlfeat"]
 	path = functions/vlfeat
 	url = https://github.com/vlfeat/vlfeat.git
+[submodule "functions/inpaint_nans"]
+	path = functions/inpaint_nans
+	url = git@github.com:briochemc/Inpaint_Nans.git

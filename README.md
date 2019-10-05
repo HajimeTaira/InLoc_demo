@@ -18,7 +18,7 @@ We open an online evaluation tool for visual localization on the InLoc dataset (
     * Inpaint nans (<https://jp.mathworks.com/matlabcentral/fileexchange/4551-inpaint-nans?requestedDomain=www.mathworks.com>)
     * yael (<http://yael.gforge.inria.fr/#>)
 
-    Netvlad, relja_matlab, vlfeat, matconvnet are the submodules of this repository and automatically downloaded by `` git clone --recurse-submodules ``. 
+    Netvlad, relja_matlab, vlfeat, matconvnet, Inpaint nans are the submodules of this repository and automatically downloaded by `` git clone --recurse-submodules ``. 
     For matconvnet, Inpaint nans, yael, please follow installation procedure described in their pages. 
     Then modify `` startup.m `` to add path to all dependencies. 
 

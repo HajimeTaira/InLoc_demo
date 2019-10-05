@@ -5,8 +5,8 @@ addpath('functions/wustl_function');
 addpath('functions/relja_matlab');
 addpath('functions/relja_matlab/matconvnet/');
 addpath('functions/netvlad/');
+addpath('functions/inpaint_nans');
 
 addpath('functions/yael_matlab_linux64_v438');
-addpath('functions/Inpaint_nans/Inpaint_nans');
 run('functions/vlfeat/toolbox/vl_setup.m');
 run('functions/matconvnet/matlab/vl_setupnn.m');
