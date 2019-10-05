@@ -19,7 +19,7 @@ We open an online evaluation tool for visual localization on the InLoc dataset (
     * yael (<http://yael.gforge.inria.fr/#>)
 
     Netvlad, relja_matlab, vlfeat, matconvnet, Inpaint nans are the submodules of this repository and automatically downloaded by `` git clone --recurse-submodules ``. 
-    For matconvnet, Inpaint nans, yael, please follow installation procedure described in their pages. 
+    For yael, please follow installation procedure described in its page.
     Then modify `` startup.m `` to add path to all dependencies. 
 
 * Compile mex function in functions/ht_pnp_function
