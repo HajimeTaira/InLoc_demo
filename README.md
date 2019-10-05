@@ -26,6 +26,8 @@ We open an online evaluation tool for visual localization on the InLoc dataset (
     
     First, install ceres solver: 
 
+    If you are on macOS, then just do `` brew install ceres-solver ``. Otherwise:
+
     ```
     git clone https://ceres-solver.googlesource.com/ceres-solver
     cd ceres-solver
