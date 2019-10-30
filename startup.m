@@ -6,6 +6,7 @@ addpath('functions/relja_matlab');
 addpath('functions/relja_matlab/matconvnet/');
 addpath('functions/netvlad/');
 addpath('functions/inpaint_nans');
+addpath('/home/lucivpav/NetVLAD');
 
 addpath('functions/yael_matlab_linux64_v438');
 run('functions/vlfeat/toolbox/vl_setup.m');

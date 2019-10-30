@@ -32,4 +32,3 @@ else
     load(top100_matname, 'ImgList');
 end
 ImgList_original = ImgList;
-

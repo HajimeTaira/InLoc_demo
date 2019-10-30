@@ -22,7 +22,7 @@ opts= struct(...
 opts= vl_argparse(opts, varargin);
 simpleNnOpts= {'conserveMemory', false, 'mode', 'test'};
 
-relja_display('cnn desciption: Start'); %tic
+relja_display('cnn description: Start'); %tic
 
 if opts.useGPU
   net= relja_simplenn_move(net, 'gpu');
@@ -58,6 +58,7 @@ end
 res = vl_simplenn(net, ims, [], [], simpleNnOpts{:});
 clear ims;
 
+
 cnnfeat = cell(1,5);
 cnnfeat{5}.x = gather(res(31).x);
 cnnfeat{4}.x = gather(res(25).x);
@@ -66,7 +67,7 @@ cnnfeat{2}.x = gather(res(11).x);
 cnnfeat{1}.x = gather(res(6).x);
 clear res
 
-relja_display('cnn desciption: End'); 
+relja_display('cnn description: End');
 % fprintf(1,'%f\n',toc);
 
 end

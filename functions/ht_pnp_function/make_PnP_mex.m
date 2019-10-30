@@ -1,12 +1,12 @@
 file = 'PnP_mex.cpp';
 
-INCLUDE = {'/usr/local/include' , '/usr/include/glog', '/usr/include/eigen3',...
-	   '/home/htaira/Desktop/zips/ceres-solver/build/config/'};
+INCLUDE = {'/usr/local/include' , '/usr/local/include/glog', '/usr/local/include/eigen3',...
+	   '/Users/lucivpav/repos/ceres-solver/bld/config/'};
 
-LIBFOLDER = {'/home/htaira/Desktop/zips/ceres-solver/build/lib/', '/usr/lib/x86_64-linux-gnu/'};
+LIBFOLDER = {'/usr/local/lib/'};
 
 LIBNAME = {'ceres', 'ceres', 'glog', 'gflags', 'suitesparseconfig',...
-	   'cholmod', 'lapack', 'blas', 'spqr', 'gomp', 'cxsparse'};
+	   'cholmod', 'lapack', 'blas', 'spqr', 'omp', 'cxsparse'};
 
 include = strjoin(strcat('-I', INCLUDE));
 libfolder = strjoin(strcat('-L', LIBFOLDER));

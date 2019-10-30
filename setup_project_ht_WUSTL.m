@@ -5,7 +5,9 @@ function [ params ] = setup_project_ht_WUSTL
 params = struct();
 
 %WUSTL dataset
-params.data.dir = './wustl_dataset';
+params.data.dir = '/home/cimpomir/data/WUSTL';
+params.data.netvlad.dir = '/home/lucivpav/NetVLAD';
+params.data.netvlad.pretrained = fullfile(params.data.netvlad.dir, 'vd16_pitts30k_conv5_3_vlad_preL2_intra_white.mat');
 %database
 params.data.db.dir = 'database';
 params.data.db.subsets_name = {'DUC1', 'DUC2', 'CSE3', 'CSE4', 'CSE5'};

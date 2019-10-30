@@ -11,7 +11,7 @@ densePE_matname = fullfile(params.output.dir, 'densePE_top100_shortlist.mat');
 if exist(densePE_matname, 'file') ~= 2
     
     %dense feature extraction
-    net = load('vd16_pitts30k_conv5_3_vlad_preL2_intra_white.mat');
+    net = load(params.data.netvlad.pretrained);
     net = net.net;
     net= relja_simplenn_tidy(net);
     net= relja_cropToLayer(net, 'preL2');
