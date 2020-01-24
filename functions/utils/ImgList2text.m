@@ -7,6 +7,11 @@ for ii = 1:1:length(ImgList)
     this_P = ImgList(ii).P{1};
     qtr = rot2qtr(this_P(1:3, 1:3));
     t = this_P(1:3, 4);
+    
+    if sum(isnan(qtr)) > 0 || sum(isinf(qtr)) > 0 || sum(isnan(t)) > 0 || sum(isinf(t)) > 0
+        continue;
+    end
+    
     %1. image name
     fprintf(fid, '%s', this_qname);
     %2. pose
